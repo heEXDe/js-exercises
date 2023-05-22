@@ -46,6 +46,7 @@ function removeEveryOther(arr){
   return arr;
 }
 ```
+
 ***
 exercise: [https://www.codewars.com/kata/53ee5429ba190077850011d4/train/javascript](https://www.codewars.com/kata/53ee5429ba190077850011d4/train/javascript)
 ```
