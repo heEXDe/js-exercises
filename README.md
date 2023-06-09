@@ -485,6 +485,27 @@ var countSheep = function (num){
 };
 ```
 ***
+exercise: https://www.codewars.com/kata/57a55c8b72292d057b000594/train/javascript
+```
+function reverse(string){
+  return string.split(' ').reverse().join(' ');
+};
+```
+***
+exercise: https://www.codewars.com/kata/57fb09ef2b5314a8a90001ed/javascript
+```
+function replace(s){
+  return s.replace(/[aeiouAEIOU]/g, "!");
+};
+```
+***
+exercise: https://www.codewars.com/kata/55b42574ff091733d900002f/javascript
+```
+function friend(friends){
+  return friends.filter(x => x.length == 4);
+};
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
