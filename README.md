@@ -506,6 +506,27 @@ function friend(friends){
 };
 ```
 ***
+exercise: https://www.codewars.com/kata/52f3149496de55aded000410/train/javascript
+```
+function sumDigits(number) {
+  return Math.abs(number).toString().split('').reduce((a, b) => Number(a) + Number(b), 0);
+};
+```
+***
+exercise: https://www.codewars.com/kata/568d0dd208ee69389d000016/train/javascript
+```
+function rentalCarCost(d) {
+  return d>=3 ? (d>=7 ? d*40-50 : d*40-20) : d*40;
+};
+```
+***
+exercise: https://www.codewars.com/kata/576757b1df89ecf5bd00073b/javascript
+```
+function towerBuilder(nFloors) {
+  return Array.from({length: nFloors}, (a, b) => {return ' '.repeat(nFloors - b - 1) + '*'.repeat(b + b + 1) + ' '.repeat(nFloors - b - 1);});
+};
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
