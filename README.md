@@ -527,6 +527,22 @@ function towerBuilder(nFloors) {
 };
 ```
 ***
+exercise: https://www.codewars.com/kata/58b8c94b7df3f116eb00005b/javascript
+```
+function reverseLetter(str) {
+  return [...str].reverse().filter(x => x.match(/[a-z]/ig)).join(''); 
+}
+```
+***
+exercise: https://www.codewars.com/kata/54ff0d1f355cfd20e60001fc/javascript
+```
+function factorial(n){
+  if (n < 0 || n > 12)
+    throw new RangeError();
+  return n <= 1 ? 1 : n * factorial(n - 1);
+};
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
