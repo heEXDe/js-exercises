@@ -543,6 +543,27 @@ function factorial(n){
 };
 ```
 ***
+exercise: https://www.codewars.com/kata/559590633066759614000063/javascript
+```
+function minMax(arr){
+  return [Math.min(...arr), Math.max(...arr)];
+};
+```
+***
+exercise: https://www.codewars.com/kata/554b4ac871d6813a03000035/javascript
+```
+function highAndLow(numbers){
+  return String(Math.max(...numbers.split(' ')) + ' ' + Math.min(...numbers.split(' ')));
+};
+```
+***
+exercise: https://www.codewars.com/kata/54ff3102c1bad923760001f3/javascript
+```
+function getCount(str) {
+  return str.match(/[aeiou]/g) == null ? 0 : str.match(/[aeiou]/g).length;
+};
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
