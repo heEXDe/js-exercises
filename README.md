@@ -564,6 +564,27 @@ function getCount(str) {
 };
 ```
 ***
+exercise: https://www.codewars.com/kata/546e2562b03326a88e000020
+```
+function squareDigits(num){
+  return Number(String(num).split('').map(x => x**2).join(''));
+}
+```
+***
+exercise: https://www.codewars.com/kata/5467e4d82edf8bbf40000155
+```
+function descendingOrder(n){
+  return Number(String(n).split('').sort((a,b) => b-a).join(''));
+}
+```
+***
+exercise: https://www.codewars.com/kata/5667e8f4e3f572a8f2000039
+```
+function accum(s) {
+  return s.split('').map((c, i) => (c.toUpperCase() + c.toLowerCase().repeat(i))).join('-');
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
