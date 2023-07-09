@@ -592,6 +592,20 @@ function isIsogram(str){
 };
 ```
 ***
+exercise: https://www.codewars.com/kata/55f2b110f61eb01779000053/javascript
+```
+function getSum(a, b){
+  return (Math.min(a,b)+Math.max(a,b))/2 * (Math.max(a,b) - Math.min(a,b) + 1);
+};
+```
+***
+exercise: https://www.codewars.com/kata/56269eb78ad2e4ced1000013
+```
+function findNextSquare(sq) {
+  return Number.isInteger(Math.sqrt(sq)) == true ? Math.pow(Math.sqrt(sq) + 1, 2) : -1;
+};
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
