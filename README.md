@@ -606,6 +606,27 @@ function findNextSquare(sq) {
 };
 ```
 ***
+exercise: https://www.codewars.com/kata/551f37452ff852b7bd000139
+```
+function addBinary(a,b) {
+  return (a+b).toString(2);
+};
+```
+***
+exercise: https://www.codewars.com/kata/56606694ec01347ce800001b
+```
+function isTriangle(a,b,c){
+   return (a+b)>c?(b+c)>a?(a+c)>b?true:false:false:false;
+}
+```
+***
+exercise: https://www.codewars.com/kata/55fd2d567d94ac3bc9000064
+```
+function rowSumOddNumbers(n) {
+  return Math.pow(n, 3);
+};
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
