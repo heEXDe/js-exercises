@@ -627,6 +627,20 @@ function rowSumOddNumbers(n) {
 };
 ```
 ***
+exercise: https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d
+```
+function solution(str, ending){
+  return new RegExp(ending + "$").test(str);
+}
+```
+***
+exercise: https://www.codewars.com/kata/5259b20d6021e9e14c0010d4
+```
+function reverseWords(str) {
+  return str.split(' ').map(x => x.split("").reverse().join("")).join(" ");
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
