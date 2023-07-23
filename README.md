@@ -648,10 +648,30 @@ function DNAStrand(dna){
 };
 ```
 ***
-exercise: https://www.codewars.com/kata/54bf85e3d5b56c7a05000cf9
+exercise: https://www.codewars.com/kata/5813d19765d81c592200001a
 ```
-var number=function(array){
-  return array === undefined || array.length == 0 ? [] : array.map(x => `${array.indexOf(x) + 1}: ${x}`);
+function dontGiveMeFive(start, end){
+  return new Array(end - start + 1).fill().map((_, i) => start + i).filter(x => !/5/.test(String(x))).length;
+};
+```
+***
+exercise: https://www.codewars.com/kata/534ea96ebb17181947000ada
+```
+function breakChocolate(n,m) {
+  return n<1 || m<1 ? 0 : (n-1) + n * (m-1);
+}
+```
+***
+exercise: https://www.codewars.com/kata/5412509bd436bd33920011bc
+```
+function maskify(cc) {
+  cc = cc.toString().split('');
+  if (cc.length > 4){
+    for (let i=0; i<cc.length - 4; i++){
+    cc[i] = '#';
+  }
+  }
+  return cc.join('');
 }
 ```
 ***
