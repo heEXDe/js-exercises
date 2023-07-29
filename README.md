@@ -682,6 +682,26 @@ function printerError(s) {
 }
 ```
 ***
+exerceise: https://www.codewars.com/kata/5648b12ce68d9daa6b000099
+```
+var number = function(busStops){
+  let num = 0;
+  for (let i=0; i<busStops.length; i++){
+    num = num + busStops[i][0] - busStops[i][1];
+  }
+  return num;
+}
+```
+***
+exercise: https://www.codewars.com/kata/563cf89eb4747c5fb100001b
+```
+function removeSmallest(numbers) {
+  let numbers2 = numbers.slice(0);
+  numbers2.splice(numbers.indexOf(Math.min(...numbers)), 1);
+  return numbers2;
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
