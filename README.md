@@ -702,6 +702,21 @@ function removeSmallest(numbers) {
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/583f158ea20cfcbeb400000a
+```
+function arithmetic(a, b, operator){
+  return operator == 'add' ?
+  a + b :
+  operator == 'subtract' ?
+  a - b :
+  operator == 'multiply' ?
+  a * b :
+  operator == 'divide' ?
+  a / b :
+  0;
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
