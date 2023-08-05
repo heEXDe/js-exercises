@@ -724,6 +724,22 @@ return nums !== null ? nums.sort((a,b) => a-b) : [];
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/514b92a657cdc65150000006
+```
+function solution(number){
+ let res = [];
+ for (let i=1; i<number; i++){
+  if (i * 3 < number){
+    res.push(i * 3);
+  }
+  if (i * 5 < number){
+    res.push(i * 5);
+  }
+ }
+ return number >= 0 ? [... new Set(res)].reduce((a, b) => a + b, 0) : 0;
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
