@@ -740,6 +740,21 @@ function solution(number){
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/5266876b8f4bf2da9b000362
+```
+function likes(names) {
+  return names.length == 1 ?
+  `${names[0]} likes this` :
+  names.length == 2 ?
+  `${names[0]} and ${names[1]} like this` :
+  names.length == 3 ?
+  `${names[0]}, ${names[1]} and ${names[2]} like this` :
+  names.length > 3 ?
+  `${names[0]}, ${names[1]} and ${names.slice(2).length} others like this` :
+  `no one likes this`;
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
