@@ -755,6 +755,13 @@ function likes(names) {
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/525f50e3b73515a6db000b83
+```
+function createPhoneNumber(numbers){
+  return `(${numbers[0]}${numbers[1]}${numbers[2]}) ${numbers[3]}${numbers[4]}${numbers[5]}-${numbers[6]}${numbers[7]}${numbers[8]}${numbers[9]}`
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
