@@ -762,6 +762,16 @@ function createPhoneNumber(numbers){
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/54da5a58ea159efa38000836
+```
+function findOdd(A) {
+  let a = A.reduce(function (acc, curr) {return acc[curr] ? ++acc[curr] : acc[curr] = 1, acc}, {});
+  for (let i=0; i<Object.keys(a).length; i++){
+    if (Object.values(a)[i] % 2 == 1){return Number(Object.keys(a)[i]);}
+  }
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
