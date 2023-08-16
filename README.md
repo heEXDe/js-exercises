@@ -772,6 +772,14 @@ function findOdd(A) {
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/541c8630095125aba6000c00
+```
+function digitalRoot(n) {
+if (n < 10) return n;
+return digitalRoot(String(n).split('').reduce((partialSum, a) => partialSum + Number(a), 0));
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
