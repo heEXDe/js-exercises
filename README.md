@@ -780,6 +780,13 @@ return digitalRoot(String(n).split('').reduce((partialSum, a) => partialSum + Nu
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1
+```
+function duplicateCount(text){
+return new Set([...text].filter((item, index) => {return [...text].indexOf(item.toLowerCase()) != index}).map(x => x.toLowerCase())).size;
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
