@@ -794,6 +794,16 @@ function spinWords(string){
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/5526fc09a1bbd946250002dc
+```
+function findOutlier(integers){
+  if (integers.filter(a => Math.abs(a)%2 ==0).length > integers.filter(b => Math.abs(b)%2 ==1).length){
+    return integers.filter(b => Math.abs(b)%2 ==1)[0]
+} else {
+  return integers.filter(c => Math.abs(c)%2 ==0)[0]
+}};
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
