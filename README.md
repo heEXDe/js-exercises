@@ -804,6 +804,18 @@ function findOutlier(integers){
 }};
 ```
 ***
+exercise: https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec
+```
+function persistence(num){
+  let r = 0;
+  while(num >= 10){
+    r++;
+    num = [...String(num)].reduce((a, b) => a*b, 1);
+  };
+  return r;
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
