@@ -816,6 +816,15 @@ function persistence(num){
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/545cedaa9943f7fe7b000048
+```
+function isPangram(string){
+  let regex1 = 'abcdefghijklmnoqprstwvyuxz';
+  for (let i=0; i<string.length; i++){if(new RegExp(`${regex1.charAt(i)}`, "i").test(string) === false){return false};}
+  return true;
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
