@@ -825,6 +825,13 @@ function isPangram(string){
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/55c45be3b2079eccff00010f
+```
+function order(words){
+  return words == "" ? "" : words.split(" ").sort((a,b) => Number(a.match(/[0-9]/g)) - Number(b.match(/[0-9]/g))).join(' ');
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
