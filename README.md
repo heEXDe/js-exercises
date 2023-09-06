@@ -832,6 +832,19 @@ function order(words){
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/54da539698b8a2ad76000228
+```
+function isValidWalk(walk) {
+ if (walk.length == 10){
+  if (walk.filter(a => a == 'n').length == walk.filter(a => a == 's').length){
+    if (walk.filter(a => a == 'e').length == walk.filter(a => a == 'w').length){
+      return true;
+    } else {return false;}
+  } else {return false;}
+ } else {return false;}
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
