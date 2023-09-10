@@ -852,6 +852,13 @@ function narcissistic(value) {
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/515de9ae9dcfc28eb6000001
+```
+function solution(str){
+   return str == "" ? [] : str.match(/.{1,2}/g).map(a => String(a).length == 1 ? a.concat('', '_') : a);
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
