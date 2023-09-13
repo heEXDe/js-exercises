@@ -859,6 +859,14 @@ function solution(str){
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/585d7d5adb20cf33cb000235
+```
+function findUniq(arr) {
+arr = arr.sort((a,b) => a-b);
+return arr[0] == arr[1] ? arr[arr.length - 1] : arr[0];
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
