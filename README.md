@@ -867,6 +867,16 @@ return arr[0] == arr[1] ? arr[arr.length - 1] : arr[0];
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/5262119038c0985a5b00029f
+```
+function isPrime(num) {
+  if (Number.isInteger(num) && num>1){
+    for(let i=2; i<=Math.sqrt(num); i++){if(num % i === 0){return false};}
+    return true;
+  } else {return false;}
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
