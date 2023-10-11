@@ -887,6 +887,13 @@ function arrayDiff(a, b) {
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/5208f99aee097e6552000148/javascript
+```
+function solution(string) {
+  return string.replace(/([A-Z])/g, ' $1');
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
