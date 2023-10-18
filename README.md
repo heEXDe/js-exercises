@@ -894,6 +894,14 @@ function solution(string) {
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/526571aae218b8ee490006f4
+```
+function countBits(n){
+  // return (n >>> 0).toString(2).split('').filter((x) => x == 1).length;
+  return n.toString(2).split('').filter((x) => x == 1).length;
+};
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
