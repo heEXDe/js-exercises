@@ -902,6 +902,14 @@ function countBits(n){
 };
 ```
 ***
+exercise: https://www.codewars.com/kata/578aa45ee9fd15ff4600090d
+```
+function sortArray(array) {
+  let arrOdd = array.filter((a) => a % 2).sort((b,c) => b - c);
+  return array.map((d) => d%2 === 0 ? d : arrOdd.shift());
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
