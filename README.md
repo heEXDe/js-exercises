@@ -910,6 +910,14 @@ function sortArray(array) {
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/57eb8fcdf670e99d9b000272
+```
+function high(x){
+let y = x.split(' ').map((a) => [...a].reduce((b, c) => b+'abcdefghijklmnopqrstuvwxyz'.split('').indexOf(c)+1, 0));
+return x.split(' ')[y.indexOf(Math.max(...y))];
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
