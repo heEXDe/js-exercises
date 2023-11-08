@@ -918,6 +918,16 @@ return x.split(' ')[y.indexOf(Math.max(...y))];
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/5839edaa6754d6fec10000a2
+```
+function findMissingLetter(array){
+  let alph = 'abcdefghijklmnopqrstuvwxyz';
+  if(array[0] == array[0].toUpperCase()){alph = alph.toUpperCase();};
+  let pieceOfAlph = alph.slice(alph.split('').indexOf(array[0]), alph.split('').indexOf(array[array.length - 1]) + 1);
+  return pieceOfAlph.split('').find((a) => array.find((b) => b == a) == undefined);
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
