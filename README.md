@@ -937,6 +937,13 @@ function duplicateEncode(word){
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/546f922b54af40e1e90001da
+```
+function alphabetPosition(text) {
+return text.split('').map((a) => {if(/[A-Za-z]/.test(a) === true){return 'abcdefghijklmnopqrstuvwxyz'.indexOf(a) + 1} else {return '-';};}).filter((b) => b !== '-').join(' ');
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
