@@ -940,7 +940,13 @@ function duplicateEncode(word){
 exercise: https://www.codewars.com/kata/546f922b54af40e1e90001da
 ```
 function alphabetPosition(text) {
-return text.split('').map((a) => {if(/[A-Za-z]/.test(a) === true){return 'abcdefghijklmnopqrstuvwxyz'.indexOf(a) + 1} else {return '-';};}).filter((b) => b !== '-').join(' ');
+return text.toLowerCase().split('').map((a) => {if(/[A-Za-z]/.test(a) === true){return 'abcdefghijklmnopqrstuvwxyz'.indexOf(a) + 1} else {return '-';};}).filter((b) => b !== '-').join(' ');
+}
+```
+exercise: https://www.codewars.com/kata/517abf86da9663f1d2000003/javascript
+```
+function toCamelCase(str){
+return str.replace(/(?<=[-_])\w/g, function(match){return match.toUpperCase();}).replace(/([-_])/g, '');
 }
 ```
 ***
