@@ -949,6 +949,17 @@ function toCamelCase(str){
 return str.replace(/(?<=[-_])\w/g, function(match){return match.toUpperCase();}).replace(/([-_])/g, '');
 }
 ```
+exercise: https://www.codewars.com/kata/556deca17c58da83c0000
+```
+function tribonacci(signature,n){
+ if (signature.length >= n){return signature.slice(0, n);}
+ else {
+  for(let i=3; i<n; i++){signature.push(signature[i-3] + signature[i-2] + signature[i-1])};
+  return signature;
+ }
+}
+```
+
 ***
 ***
 ### License
