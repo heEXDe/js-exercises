@@ -959,7 +959,14 @@ function tribonacci(signature,n){
  }
 }
 ```
-
+exercise: https://www.codewars.com/kata/52efefcbcdf57161d4000091/javascript
+```
+function count (string) {  
+  let count = {};
+  [...string].map((s) => count[s] ? count[s]++ : count[s] = 1);
+  return count;
+}
+```
 ***
 ***
 ### License
