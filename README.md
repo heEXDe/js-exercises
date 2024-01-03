@@ -943,12 +943,14 @@ function alphabetPosition(text) {
 return text.toLowerCase().split('').map((a) => {if(/[A-Za-z]/.test(a) === true){return 'abcdefghijklmnopqrstuvwxyz'.indexOf(a) + 1} else {return '-';};}).filter((b) => b !== '-').join(' ');
 }
 ```
+***
 exercise: https://www.codewars.com/kata/517abf86da9663f1d2000003/javascript
 ```
 function toCamelCase(str){
 return str.replace(/(?<=[-_])\w/g, function(match){return match.toUpperCase();}).replace(/([-_])/g, '');
 }
 ```
+***
 exercise: https://www.codewars.com/kata/556deca17c58da83c0000
 ```
 function tribonacci(signature,n){
@@ -959,12 +961,26 @@ function tribonacci(signature,n){
  }
 }
 ```
+***
 exercise: https://www.codewars.com/kata/52efefcbcdf57161d4000091/javascript
 ```
 function count (string) {  
   let count = {};
   [...string].map((s) => count[s] ? count[s]++ : count[s] = 1);
   return count;
+}
+```
+***
+exercise: https://www.codewars.com/kata/5592e3bd57b64d00f3000047
+```
+function findNb(m) {
+  let currVol = 1;
+  let n = 1;
+  while (currVol < m){
+    n++;
+    currVol = currVol + n ** 3;
+  }
+  return currVol == m ? n : -1;
 }
 ```
 ***
