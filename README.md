@@ -984,6 +984,13 @@ function findNb(m) {
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/52597aa56021e91c93000cb0
+```
+function moveZeros(arr) {
+  return arr.filter((a) => a !== 0).concat(arr.filter((b) => b === 0));
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
