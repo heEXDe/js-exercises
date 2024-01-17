@@ -1001,6 +1001,14 @@ function pigIt(str){
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/52685f7382004e774f0001f7/javascript
+```
+function humanReadable (seconds) {
+  function lenOfNum(x){return String(x).length == 2 ? x : "0" + String(x);}
+  return `${lenOfNum(Math.floor(seconds / 3600))}:${lenOfNum(Math.floor((seconds % 3600) / 60))}:${lenOfNum(seconds - 3600 * Math.floor(seconds / 3600) - 60 * Math.floor((seconds % 3600) / 60))}`;
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
