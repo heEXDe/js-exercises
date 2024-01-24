@@ -1020,6 +1020,17 @@ function rgb(r, g, b){
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/52449b062fb80683ec000024/javascript
+```
+function generateHashtag (str) {
+  let result = '#' + str.split(' ').filter((a) => a !== '').map((b) => b.charAt(0).toUpperCase() + b.slice(1).toLowerCase()).join('');
+  return result.length > 140 ? false :
+  str.length < 1 ? false :
+  result.length < 2 ? false :
+  result; 
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
