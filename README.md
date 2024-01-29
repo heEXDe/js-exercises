@@ -1030,6 +1030,21 @@ function generateHashtag (str) {
   result; 
 }
 ```
+exercise: https://www.codewars.com/kata/530e15517bc88ac656000716
+```
+function rot13(message){
+  let alphB = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.repeat(2);
+  let alphS = 'abcdefghijklmnopqrstuvwxyz'.repeat(2);
+  return message.split('').map((a) => {
+    if(/[A-Z]/.test(a) === true){
+      return [...alphB][alphB.indexOf(a) + 13];
+    } else if (/[a-z]/.test(a) === true){
+      return [...alphS][alphS.indexOf(a) + 13];
+    } else {
+      return a;
+    };}).join('');
+}
+```
 ***
 ***
 ### License
