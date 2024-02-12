@@ -1030,6 +1030,7 @@ function generateHashtag (str) {
   result; 
 }
 ```
+***
 exercise: https://www.codewars.com/kata/530e15517bc88ac656000716
 ```
 function rot13(message){
@@ -1044,6 +1045,25 @@ function rot13(message){
       return a;
     };}).join('');
 }
+```
+***
+exercise: https://www.codewars.com/kata/525f3eda17c7cd9f9e000b39/javascript
+```
+function zero(a) {if(a){return Math.floor(new Function('return ' + `0 ${a}`)());} else {return 0;}}
+function one(a) {if(a){return Math.floor(new Function('return ' + `1 ${a}`)());} else {return 1;}}
+function two(a) {if(a){return Math.floor(new Function('return ' + `2 ${a}`)());} else {return 2;}}
+function three(a) {if(a){return Math.floor(new Function('return ' + `3 ${a}`)());} else {return 3;}}
+function four(a) {if(a){return Math.floor(new Function('return ' + `4 ${a}`)());} else {return 4;}}
+function five(a) {if(a){return Math.floor(new Function('return ' + `5 ${a}`)());} else {return 5;}}
+function six(a) {if(a){return Math.floor(new Function('return ' + `6 ${a}`)());} else {return 6;}}
+function seven(a) {if(a){return Math.floor(new Function('return ' + `7 ${a}`)());} else {return 7;}}
+function eight(a) {if(a){return Math.floor(new Function('return ' + `8 ${a}`)());} else {return 8;}}
+function nine(a) {if(a){return Math.floor(new Function('return ' + `9 ${a}`)());} else {return 9;}}
+
+function plus(b) {return `+ ${b}`;}
+function minus(b) {return `- ${b}`;}
+function times(b) {return `* ${b}`;}
+function dividedBy(b) {return `/ ${b}`;}
 ```
 ***
 ***
