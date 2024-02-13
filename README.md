@@ -1066,6 +1066,15 @@ function times(b) {return `* ${b}`;}
 function dividedBy(b) {return `/ ${b}`;}
 ```
 ***
+exercise: https://www.codewars.com/kata/514a024011ea4fb54200004b/javascript
+```
+function domainName(url){
+  if(/www/.test(url)){return url.match(/\.(.*?)\./)[1];}
+  else if (/www/.test(url) === false && /http/.test(url) === true) {return url.match(/\/\/(.*?)\./)[1];}
+  else {return url.match(/^.*?(\.)/)[0].slice(0, -1);}
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
