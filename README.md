@@ -1075,6 +1075,23 @@ function domainName(url){
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/54521e9ec8e60bc4de000d6c
+```
+function maxSequence(arr){
+  let msf = arr[0];
+  let cm = arr[0];
+  if (arr.length === 0){return 0;}
+  else if (Math.max(...arr) < 0){return 0;}
+  else {
+    for (let i = 1; i < arr.length; i++){
+      cm = Math.max(arr[i], cm + arr[i]);
+      msf = Math.max(msf, cm);
+    }
+    return msf;
+  } 
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
