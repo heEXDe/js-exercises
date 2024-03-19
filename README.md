@@ -1092,6 +1092,27 @@ function maxSequence(arr){
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/525c65e51bf619685c000059
+```
+function cakes(recipe, available) {
+  let ans = [];
+  // checking if the recipe ingredients list is longer than available ingredients list
+  if(Object.keys(recipe).length > Object.keys(available).length){return 0;}
+  else{
+    //going through every ingredient in the recipe ingredients list
+    for(let key of Object.keys(recipe)){
+      // if the current ingredient from the recipe ingredients list IS NOT present in the available ingredients list
+      if(available.hasOwnProperty(key) === false){return 0;}
+      // if the current ingredient from the recipe ingredients list IS present in the available ingredients list
+      else {
+        ans.push(available[key] / recipe[key]);
+      }
+    }
+    return Math.floor(Math.min(...ans));
+  }
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
