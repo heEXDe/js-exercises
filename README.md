@@ -1113,6 +1113,13 @@ function cakes(recipe, available) {
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/583203e6eb35d7980400002a/javascript
+```
+function countSmileys(arr) {
+  return arr.length == 0 ? 0 : arr.filter((a) => /^[;:][-~]?[)D]$/.test(a)).length;
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
