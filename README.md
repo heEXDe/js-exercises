@@ -1149,6 +1149,32 @@ function dirReduc(arr){
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/52bc74d4ac05d0945d00054e
+```
+function firstNonRepeatingLetter(str) {
+  for(const i in str.toLowerCase()){
+    if (str.toLowerCase().indexOf(str.toLowerCase()[i]) == str.toLowerCase().lastIndexOf(str.toLowerCase()[i])){return str[i];}
+  }
+  return "";
+}
+```
+***
+exercise: https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d
+```
+function solution(str, ending){
+  return str.endsWith(ending);
+}
+```
+***
+exercise: https://www.codewars.com/kata/55f8a9c06c018a0d6e000132
+```
+function validatePIN (pin) {
+  if (pin.length == 4 || pin.length == 6){
+    return /^\d+$/.test(pin) === true ? true : false;
+  } else {return false;};
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
