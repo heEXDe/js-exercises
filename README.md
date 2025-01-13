@@ -1175,6 +1175,22 @@ function validatePIN (pin) {
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/5656b6906de340bd1b0000ac
+```
+function longest(s1, s2) {
+  let res = s1.concat('', s2).split('').sort((a, b) => a.localeCompare(b));
+  return res.filter((item, index) => {return res.indexOf(item.toLowerCase()) == index}).join('');
+}
+```
+***
+exercise: https://www.codewars.com/kata/50654ddff44f800200000004/javascript
+```
+function multiply(a, b){
+  return a * b
+}
+```
+
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
