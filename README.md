@@ -1197,6 +1197,13 @@ function evenOrOdd(number) {
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/5168bb5dfe9a00b126000018/javascript
+```
+function solution(str){
+  return str.split('').reverse().join('');
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
