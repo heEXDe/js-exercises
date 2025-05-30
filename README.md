@@ -1204,6 +1204,13 @@ function solution(str){
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/55685cd7ad70877c23000102
+```
+function makeNegative(num) {
+  return num == 0 ? 0 : num > 0 ? -1 * num : num;
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
