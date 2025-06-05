@@ -1211,6 +1211,13 @@ function makeNegative(num) {
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/56dec885c54a926dcd001095
+```
+function opposite(number) {
+  return number == 0 ? 0 : number * (-1);
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
