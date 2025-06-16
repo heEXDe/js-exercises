@@ -1218,6 +1218,22 @@ function opposite(number) {
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/555eded1ad94b00403000071
+```
+function SeriesSum(n) {
+  if(n == 0){
+    return Number.parseFloat(n).toFixed(2);
+  }
+  else {
+    let sum = 0;
+    for (let i = 1; i <= n; i++) {
+      sum += 1 / (3 * i - 2);
+    }
+    return Number.parseFloat(sum).toFixed(2);
+  }
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
