@@ -1234,6 +1234,19 @@ function SeriesSum(n) {
 }
 ```
 ***
+exercise: https://www.codewars.com/kata/544aed4c4a30184e960010f4/javascript
+```
+function divisors(integer) {
+  let res = [];
+  for (let i=0; i<=integer; i++){
+    if (integer % i == 0 && i != 1 && i != integer){
+      res.push(i);
+    }
+  }
+  return res.length >= 1 ? res : `${integer} is prime`;
+};
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
