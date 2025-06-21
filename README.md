@@ -1247,6 +1247,13 @@ function divisors(integer) {
 };
 ```
 ***
+exercise: https://www.codewars.com/kata/54bf85e3d5b56c7a05000cf9
+```
+var number=function(array){
+  return array === undefined || array.length == 0 ? [] : array.map((v, i) => `${i + 1}: ${v}`);
+}
+```
+***
 ***
 ### License
 Copyright (c) 2023, heEXDe All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
